@@ -18,8 +18,6 @@ let __tmpReq = (function () { function r(e, n, t) {
             } 
             return n[i].exports 
         } 
-        for (var u = "function" == typeof require && require, i = 0; i < t.length; i++)
-            o(t[i]); 
-        return o 
+        return req => o(e[t[0]][1][req]);
     } 
     return r })()
