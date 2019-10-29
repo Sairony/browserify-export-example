@@ -1,0 +1,14 @@
+{
+  "name": "browserify-export",
+  "version": "0.1.0",
+  "description": "Example of browserify with export",
+  "scripts": {
+    "build": "node build.js > output.js"
+  },
+  "dependencies": {
+    "bound-points": "latest"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  }
+}
